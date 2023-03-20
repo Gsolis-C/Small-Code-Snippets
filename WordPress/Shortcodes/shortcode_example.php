@@ -5,4 +5,9 @@
     function roundabout_print(){
         return('Hello World');
     }
+
+    /*Similar example with the function inside the API call */
+    add_shortcode("another-roundabout-print", function(){
+        return('This is the text you will return');
+    });
 ?>
