@@ -95,10 +95,9 @@ If you're already using the block editor, there's also a dedicated [shortcode bl
 You can do this too if you don't want to keep track of two separate statements for each shortcode. Our hello world example would look a little bit like this.
 
 ```
-add_shortcode("roundabout-print", function(){
-        return('Hello World');
-    }
-);
+add_shortcode("another-roundabout-print", function(){
+        return('This is the text you will return');
+    });
 ```
 
 This should work exactly the same as the previous example.
