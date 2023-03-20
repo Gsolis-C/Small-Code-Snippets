@@ -17,7 +17,9 @@ This repository will be periodically updated with new items. I hope you find it 
 + How to Properly Structure a Table (A non-illustrated guide)
 ### CSS
 ### JAVASCRIPT
-+ JQuery AJAX Request (Sessions can suck it)
++ Asynchronous Requests
+    + [Fetch](/JavaScript/Async%20requests%20(With%20Special%20Guest%20Star%20jQuery)/fetch)
+    + [jQuery AJAX](/JavaScript/Async%20requests%20(With%20Special%20Guest%20Star%20jQuery)/jQuery%20AJAX)
 ### PHP
 + The Most Basic PHP File Ever
 + Session Variables (AJAX can suck it)
