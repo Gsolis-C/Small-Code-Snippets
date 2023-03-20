@@ -23,3 +23,4 @@ This repository will be periodically updated with new items. I hope you find it 
 + Session Variables (AJAX can suck it)
 ### WORDPRESS
 + Basic Plugin Structure
+### [GENERAL TIPS](/General Tips and Tricks)
