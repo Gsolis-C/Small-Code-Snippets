@@ -4,7 +4,17 @@ Done trying to get whatever it is you're doing to work? Now's the time to go thr
 
 ## Don't Panic
 
-This would be a pretty good time for me to repeat this **DON'T PANIC!** Yes, I know that the code isn't working. Yes I know that the deadline is right now. Yes I know that your boss is a no-fun know-nothing-know-it-all that is hovering over your shoulder right now looking for the tiniest reason to fire you. This paragraph is probably good enough. Your fault for leaving it open.
+This would be a pretty good time for me to repeat this. 
+
+**DON'T PANIC!** 
+
+No, not even because the code isn't working. 
+
+No, not even if the deadline is right now. 
+
+Yes I know that your boss is a no-fun know-nothing-know-it-all that is hovering over your shoulder right now looking for the tiniest reason to fire you. 
+
+The last couple of sentences are probably good enough. Your fault for leaving it open.
 
 All of this is precisely the reason you shouldn't panic. Apart from being recognized as someone who keeps their cool in dire situations, panic is just going to make things worse. Especially if you can't see a way out of it because of it.
 
@@ -16,9 +26,9 @@ Comments don't need to be particularly verbose or complex. All they need to do i
 
 ## Code is not documentation
 
-I thought of putting this one as a corollary to the previous section, but it'd would be best to put it separately to spare you and whomever reads your code from the confusion.
+Yes. There's the wonder of self-documenting code. You should probably try and do self-documenting code as much as you can. 
 
-Yes, there is something to be said of self-documenting code The code itself is not the issue. It's trying to remember why you did things the way you did. Or worse, trying to know why someone else did them that way. I'm sure their code is self-explanatory to them, but it's likely it won't be for you.
+Self-documenting code
 
 ## Anyone can ~~cook~~ code
 
