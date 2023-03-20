@@ -10,13 +10,15 @@ All of this is precisely the reason you shouldn't panic. Apart from being recogn
 
 ## Document everything
 
+At some point, you will be told to look at a codebase and figure out what's wrong with it. If you're lucky it will be your code. If you're not, it'll be someone elses. Whichever one it is, the experience will be much more pleasant if you find a couple of comments here and there. If you don't believe this is the case, code something reasonably complex and don't come back to it for six months, then see how easy it is for you to reverse-engineer your own code.
 
+Comments don't need to be particularly verbose or complex. All they need to do is describe what the code is supposed to be doing right around where you place them. That way whomever takes your spot after you get promoted starts messing with your codebase won't need to spend however much time it would take for them to decipher it by feel.
 
 ## Code is not documentation
 
-I thought of putting this one as a corollary to the previous section, but I thought it would be best to put it separately to spare you and whomever reads your code from the confusion.
+I thought of putting this one as a corollary to the previous section, but it'd would be best to put it separately to spare you and whomever reads your code from the confusion.
 
-The code itself is not the issue. It's trying to remember why you did things the way you did. Or worse, trying to know why someone else did them that way. I'm sure their code is self-explanatory to them, but it's likely it won't be for you.
+Yes, there is something to be said of self-documenting code The code itself is not the issue. It's trying to remember why you did things the way you did. Or worse, trying to know why someone else did them that way. I'm sure their code is self-explanatory to them, but it's likely it won't be for you.
 
 ## Anyone can ~~cook~~ code
 
@@ -30,7 +32,7 @@ Keeping up with the Greybeards (and future Greybeards) is a road to frustration 
 
 ## Learn slowly
 
-Allow me to save you a bunch of money. There's no way you can learn to develop *insert language of your choice* in 24 hours. or 48. Or a week. You can learn the basics of a language in a week. But even those most talented people from the previous section will have difficulty creating something larger than a button. 
+Allow me to save you a bunch of money. There's no way you can learn to develop *insert language of your choice here* in 24 hours. or 48. Or a week. You can learn the basics of a language in a week. But even those most talented people from the previous section will have difficulty creating something more complex than basic CRUD after such an intense session. 
 
 That is unless, they spend every available hour in that week figuring it out. Which they probably will.
 
