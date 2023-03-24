@@ -20,15 +20,15 @@ All of this is precisely the reason you shouldn't panic. Apart from being recogn
 
 ## Document everything
 
-At some point, you will be told to look at a codebase and figure out what's wrong with it. If you're lucky it will be your code. If you're not, it'll be someone elses. Whichever one it is, the experience will be much more pleasant if you find a couple of comments here and there. If you don't believe this is the case, code something reasonably complex and don't come back to it for six months, then see how easy it is for you to reverse-engineer your own code.
+At some point, you will be told to look at a codebase and figure out what's wrong with it. If you're lucky it will be your code. If you're not, it'll be someone elses'. Whichever one it is, the experience will be much more pleasant if you find a couple of comments here and there. If you don't believe this is the case, code something reasonably complex and don't come back to it for six months, then see how easy it is for you to reverse-engineer your own code.
 
 Comments don't need to be particularly verbose or complex. All they need to do is describe what the code is supposed to be doing right around where you place them. That way whomever takes your spot after you get promoted starts messing with your codebase won't need to spend however much time it would take for them to decipher it by feel.
 
 ## Code is not documentation
 
-Yes. There's the wonder of self-documenting code. You should probably try and do self-documenting code as much as you can. 
+Yes. There's such a thing as  self-documenting code. You should probably try and do self-documenting code as much as you can. It makes things easier to decipher for future you as well.
 
-Self-documenting code
+Where Self-documenting code fails is in the hidden picture. It can tell you a lot about how the code is, but it can't tell you why it is that way, what's it actually supposed to do, if there's any pending fixes that your predecessor was going to get to eventually, and so on.
 
 ## Anyone can ~~cook~~ code
 
