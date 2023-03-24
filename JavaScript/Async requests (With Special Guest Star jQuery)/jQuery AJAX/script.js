@@ -1,9 +1,16 @@
+/*Verifying that the script will not load until all DOM items have done so */
 $( document ).ready(function() {
-    $("#aButton").click(function(){
-        $.ajax({
-            url: "server/server.php",
-          }).done(function(data) {
-            $("#aTable").html(data);
-          });
-    })
+  /*Clock event */
+  $("#aButton").click(function(){
+    /*Ajax Request */
+    $.ajax({
+      type: "POST",
+      url: "server/server.php",
+      headers: {
+      },
+      data:{lowNumber:1,highNumber:100},
+      success: function(result){
+        $("#aTable").html(result);}
+      });
+  })
 })

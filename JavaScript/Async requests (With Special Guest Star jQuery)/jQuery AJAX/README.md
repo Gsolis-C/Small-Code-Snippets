@@ -1,14 +1,12 @@
-# AJAX Queries (With Special Guest Star jQuery)
+# JQuery AJAX
 
-It used to be simple...and a bit wasteful. You sent a server request and the server would get that page back to you. Good if you're using your website as a glorified filing cabinet. Not so good as websites became more interactive and having to resend an entire page for every minor change was causing quite a lot of bandwith waste (for everyone).
-
-If only there was a way to only update the bit of the page you need?
-
-## Enter AJAX
-
-To make a long story...medium-length, AJAX allows you to create com Asynchronous Jacascript and XML. No, don't worry, you won't actually need to use XML, but when Asynchronous request started becoming a thing XML was the language of choice for structued data transfers. There's a chance 
+You can also do an asynchronous request with jQuery If you don't want to use `fetch` or your project already has the library built into it, here's how to do it.
 
 ## What is jQuery
+
+jQuery is a Javascript framework. Sometime in 2005, John Resig, Javascript programmer extraordinaire, started to think about a way to use CSS selectors to [bind Javascript functions to specific HTML objects](https://johnresig.com/blog/selectors-in-javascript/). After working some more on it he officially introduced it on BarCamp NYC on January 14th, 2006.
+
+By now, this sub-300kb library is used on at least 77% of websites, all the while allowing front-end developers to use javascript more efficiently. This AJAX query may look a bit complex, but it's certainly easier to understand and use than `xmlhttprequest`. 
 
 ## How to do an AJAX Request
 
@@ -28,7 +26,7 @@ $.ajax({
       });
 ```
 
-explanation
+Now let's go line by line and see what everything does.
 
 - `$.ajax`    
     - `type`: This is the [HTTP Method](https://www.w3schools.com/tags/ref_httpmethods.asp) that you will use to send the request. The most common are GET and POST. 
@@ -39,6 +37,25 @@ explanation
     - `dataType`: This is where you specify the type of data you're sending. Most of the time it will be in JSON format.
     - `success`: If you've structured your request correctly, it will have to do something with it. This is where you define this. In this case, we've placed the entire function in there because it's simple. Anything more complex and perhaps you should do a function call to somewhere else instead.
 
-## What if I want to call a specific function from the PHP file?
+## Can I call a specific function from a PHP file using this instead of `fetch`?
 
-You can't do that, not on the AJAX request at least. you're requesting the entire document from the server, not just a 
+Nope. It has the same limitation as `fetch`. Send something in the request that you can use server-side to pick your function.
+
+## Can you do the `fetch` example but Using jQuery?
+
+Of course you can. if you haven't seen the `fetch` example, we created a 3x3 table which would be filled with random numbers between an upper and lower limit that we selected.
+
+doing that request in jQuery looks a little bit like this:
+
+``` 
+$.ajax({
+  type: "POST",
+  url: "server/server.php",
+  headers: {
+      },
+  data:{lowNumber:1,highNumber:100},
+  success: function(result){
+    $("#aTable").html(result);}
+});
+```
+You can see that you can mix and match with the items of the AJAX request. This should be enough to get you started with them or to use as a base in case you need results right now.

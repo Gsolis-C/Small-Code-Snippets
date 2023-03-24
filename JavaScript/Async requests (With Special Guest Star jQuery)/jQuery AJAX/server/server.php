@@ -6,12 +6,14 @@
             $content.="<tr>";
             for($j=0;$j<=3;$j++){
                 $content.="<td>";
-                $content.= rand(0,100);
+                $content.= rand(($_POST['lowNumber']),$_POST['highNumber']);
                 $content.="</td>";
             }
             $content.="</tr>";
         }
         $content.="</table>";
+        $content.="<br><br>";
+        $content.=var_dump($_POST);
         return $content;
     }
     echo(create_table());
