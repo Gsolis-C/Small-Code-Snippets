@@ -26,4 +26,4 @@ This repository will be periodically updated with new items. I hope you find it 
 ### WORDPRESS
 + Basic Plugin Structure
 ### THE REST
-+  [Gereral Tips and Tricks](/General%20Tips%20and%20Tricks)
++  [Gereral Tips and Tricks](/Tips)
