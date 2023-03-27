@@ -110,14 +110,13 @@ Let's say, just to keep our existing code and example, that you now want to stil
 
 you can send any number of attributes to a shortcode. they all get bundled into a nice associated array and sent to the shortcode function looking a little like this:
 
-`{“attribute”:”word”,”anotherattribute”:”five”} `
+`{"attribute":"word","anotherattribute":"five"} `
 
 on the function side, you only need to do a couple of small changes. You'll need to add an argument to your shortcode function for it to accept the attributes. Wordpress documentation and boilerplate functions like to use `$atts` for this. We'll use it here as well.
 
 ```
 add_shortcode("roundabout-print", "roundabout_print");
 function roundabout_print($atts){
-		$string =
         return('Hello '.$atts['attribute']);
 }
 ```
