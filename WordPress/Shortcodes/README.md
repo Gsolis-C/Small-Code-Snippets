@@ -1,6 +1,6 @@
 # Shortcodes - Keep your PHP off of the editor.
 
-Shortcodes allow you to call PHP functions from within the wordpress editor without having to do all of that potentially site-breaking *dumping a PHP call in the middle of your post* business.
+Shortcodes allow you to call PHP functions from within the wordpress editor without having to do all of that potentially site-breaking *"dumping a PHP call in the middle of your post"* business.
 
 So instead of
 
@@ -16,7 +16,7 @@ So instead of
 *Some More Text*
 ```
 
-or, if you had almost but not quite enough precience,
+or, if you had almost but not quite enough prescience,
 
 ~~~
 *Some Text*
@@ -55,7 +55,7 @@ It seems self-explanatory...and it is, but let's explain it anyway.
 In this case, all you need to do is make a function `function_name(){}` and just have it do whatever, returning whatever you need when it's done.
 - `function function_name(){}`: that function you just called. The code you want to do goes here.
 
-For this example, we've decided to take complete leave of our sense and, instead of just typing "Hello World" on every page, we're creating a shortcode to use it everywhere.
+For this example, we've decided to take complete leave of our senses and, instead of just typing "Hello World" on every page, we're creating a shortcode to use it everywhere.
 
 Maybe we have a lot of places where we want to print Hello World.
 ```
@@ -80,9 +80,8 @@ It's not there? you can just create it and add the basic php structure:
 ```
 No need to link it anywhere else. WordPress knows to look for it.
 
-***Important:*** It's often repeated but it bears mentioning again: **Keep backups**. If the theme you're tinkering with is not yours, an update can overwrite your `functions.php` file. if you didn't keep a copy, good luck recreating all of your shortcodes from memory.
+***Important:*** It's often repeated but it bears mentioning again: **Keep backups**. If the theme you're tinkering with is not yours and you're not using a [child theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/), an update can overwrite your `functions.php` file. if you didn't keep a copy, good luck recreating all of your shortcodes from memory.
 
-This is why child themes are a team.
 
 Okay, so we've made a shortcode, how do we use it? Well, all you need to do is add the name of the shortcode in the wordpress editor between `[]` brackets. 
 
@@ -104,7 +103,7 @@ This should work exactly the same as the previous example.
 
 ## But what if I want it to use variables?
 
-Let's say, just to keep our existing code and example, that you now want to still display a hello, but who you're saying hello to. Well, you're in luck, as you can send attributes to the shortcode. it looks a little bit like this
+Let's say, just to keep our existing code and example, that you now want to still display a hello, but a specific one for each page. Well, you're in luck, as you can send attributes to the shortcode. it looks a little bit like this
 
 `[roundabout-print attribute="you" anotherAttribute='five']`
 
@@ -123,7 +122,7 @@ function roundabout_print($atts){
 
 
 
-*Note*: The interpreter for shortcodes is a bit like the security guard at your average stadium and will let everything through. You'll note I sent it two arguments and only used one. This will happen without any error messages. You can also send it no attributes and it will still run provided the function itself does not throw any errors. Be mindful of this. Also try and have defaults ready in case you or someone else forgets their attributes.
+*Note*: The interpreter for shortcodes is a bit like the security guard at your average stadium and will let everything through. You'll note I sent it two arguments and only used one. This will happen without any warnings. You can also send it no attributes and it will still run provided the function itself does not throw any errors. Be mindful of this. Also try and have defaults ready in case you or someone else forgets their attributes.
 
 ## Can I just get the code to copy please?
-Sure, click here, but don't say I didn't try and help you. 
+Sure, [click here](shortcode_example.php), but don't say I didn't try and help you. 

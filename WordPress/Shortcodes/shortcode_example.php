@@ -10,10 +10,15 @@
     add_shortcode("another-roundabout-print", function(){
         return('This is the text you will return');
     });
-
-    /*Another example, but this one ready to use a variable */
+    
+    /*Example With Attributes*/
     add_shortcode("roundabout-print", "roundabout_print");
     function roundabout_print($atts){
         return('Hello '.$atts['attribute']);
     }
+
+    /*Same, but with the function inside the API call */
+    add_shortcode("roundabout-print",  function($atts){
+        return('Hello '.$atts['attribute']);
+    });
 ?>
