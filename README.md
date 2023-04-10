@@ -12,18 +12,13 @@ This guide (Cheat Sheet, really) is designed to help you with basic concepts, pr
 This repository will be periodically updated with new items. I hope you find it useful. And if you don't, relax; you're just not a part of [today's 10,000](https://xkcd.com/1053/ )
 
  
-### HTML
-+ The Most Basic HTML Template Ever (Basic Layout)
-+ How to Properly Structure a Table (A non-illustrated guide)
-### CSS
 ### JAVASCRIPT
 + Asynchronous Requests
     + [Fetch](/JavaScript/Async%20requests%20(With%20Special%20Guest%20Star%20jQuery)/fetch)
     + [jQuery AJAX](/JavaScript/Async%20requests%20(With%20Special%20Guest%20Star%20jQuery)/jQuery%20AJAX)
-### PHP
-+ The Most Basic PHP File Ever
-+ Session Variables (AJAX can suck it)
++ [Regular Expressions - A Cheat Sheet](/JavaScript/Regular%20Expressions%20-%20A%20Cheat%20Sheet)
 ### WORDPRESS
-+ Basic Plugin Structure
++ [Basic Plugin Structure](/WordPress/Introduction%20to%20Plugins/)
++ [Shortcodes](/WordPress/Shortcodes/)
 ### THE REST
-+  [Gereral Tips and Tricks](/Tips)
++  [General Tips and Tricks](/Tips)
