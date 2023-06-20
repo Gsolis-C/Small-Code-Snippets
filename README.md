@@ -17,10 +17,10 @@ This repository will be periodically updated with new items. I hope you find it 
     + [Fetch](/JavaScript/Async%20requests%20(With%20Special%20Guest%20Star%20jQuery)/fetch)
     + [jQuery AJAX](/JavaScript/Async%20requests%20(With%20Special%20Guest%20Star%20jQuery)/jQuery%20AJAX)
 + [Regular Expressions - A Cheat Sheet](/JavaScript/Regular%20Expressions%20-%20A%20Cheat%20Sheet)
-+ [Add Javascript/CSS to WordPress](/WordPress/wpdb)
 ### WORDPRESS
 + [Basic Plugin Structure](/WordPress/Introduction%20to%20Plugins/)
 + [Shortcodes](/WordPress/Shortcodes/)
 + [Child Themes](/WordPress/child-themes/)
++  [Add Javascript/CSS to WordPress](/WordPress/wp_enqueue)
 ### THE REST
 +  [General Tips and Tricks](/Tips)
